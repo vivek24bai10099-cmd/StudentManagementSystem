@@ -1,0 +1,26 @@
+public class Student {
+    private int id;
+    private String name;
+    private String course;
+    private double marks;
+
+    public Student(int id, String name, String course, double marks) {
+        this.id = id;
+        this.name = name;
+        this.course = course;
+        this.marks = marks;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public String toFileString() {
+        return id + "," + name + "," + course + "," + marks;
+    }
+
+    @Override
+    public String toString() {
+        return "ID: " + id + " Name: " + name + " Course: " + course + " Marks: " + marks;
+    }
+}
