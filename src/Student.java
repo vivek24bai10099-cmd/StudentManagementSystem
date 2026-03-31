@@ -1,4 +1,4 @@
-public class Student {
+// Student class for storing student detailspublic class Student {
     private int id;
     private String name;
     private String course;
