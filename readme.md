@@ -1,4 +1,4 @@
-# Student Management System (Java)
+#  Student Management System (Java)
 
 ## Problem
 Managing student records manually is difficult and unorganized.
